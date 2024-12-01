@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>responsive berger website</title>
+        <link rel="stylesheet" href="food.css">
+        <head>
+            <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+    <header>
+        <a href="#" class="logo"><img src="img/favicon.png"</a>
+        <div class="bx bx-menu" id="menu-icon"></div>  
+        <ul class="navbar">
+            
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+      <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome to</span>
+            <h1>the best burger</h1>
+            <h2>free burger is a <br>tap away</h2>
+            <a href="#" class="btn">join Now</a>
+
+        </div>
+        <div class="home-img">
+            <img src="img/home-burger.png" alt="">
+        </div>
+      </section>
+<section class="Shop" id="Shop">
+    <div class="heading">
+        <span>Shop Now</span>
+        <h1>Shop burger</h1>
+    </div>
+    <div class="shop-container">
+    <div class="box">
+    <img src="img/popular-burger-big.png" alt="">
+    
+    <div class="stars">
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star-half'></i>
+   
+    </div>
+ <h2>big burger</h2>
+ <span>24Dt</span>
+ <a href="#" class="btn">Order Now</a>
+ </div>
+ <div class="box">
+    <img src="img/popular-burger-chicken.png" alt="">
+    
+    <div class="stars">
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star-half'></i>
+   
+    </div>
+ <h2>chicken burger</h2>
+ <span>24Dt</span>
+ <a href="#" class="btn">Order Now</a>
+ </div>
+ <div class="box">
+    <img src="img/popular-burger-grill.png" alt="">
+    
+    <div class="stars">
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star'></i>
+    <i class='bx bxs-star-half'></i>
+   
+    </div>
+ <h2> burger grill</h2>
+ <span>24Dt</span>
+ <a href="#" class="btn">Order Now</a>
+ </div>
+
+    
+
+ </div>
+</section>
+<section class="delivery" id="delivery">
+    <div class="heading">
+        <span>Get Now</span>
+        <h1>Order with Uber Eats</h1>
+
+    </div>
+    <div class="container">
+        <div class="delivery-img">
+            <img src="img/delivery-burger.png" alt="">
+        </div>
+        <div class="delivery-text">
+            <h2>Today Deserve delivery </h2>
+            <p>Lorem ipsum dolor sit</p>
+            <p>Lorem ipsum dolor sit</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </div>
+</section>
+<section class="app" id="app">
+<div class="heading">
+    <span>Our App</span>
+    <h1>order with </h1>
+    <h1>Dowload App</h1>
+</div>
+<div class="container">
+    
+    <div class="app-text">
+        <h2>Today Deserve delivery</h2>
+        <p>Lorem ipsum dolor sit</p>
+        <p>Lorem ipsum dolor sit</p>
+        <a href="#" class="btn">Get app</a>
+    </div>
+    <div class="app-img">
+        <img src="img/sticker-burger.svg" alt="">
+    </div>
+</div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img/recipe-burger.png" alt="">
+    </div>
+    <div class="about-text">
+        <h2>50 years of serving communities</h2>
+        <p>Welcome to De Burger, where every bite is a journey into culinary delight. Located in the heart of the city, De Burger is renowned for its gourmet burgers crafted from the finest, freshest ingredients. Our menu features a variety of innovative and classic options, all made to satisfy your burger cravings. From our juicy beef patties to our flavorful vegetarian and vegan alternatives, each burger is meticulously prepared to ensure the perfect blend of taste and texture. Accompanied by our hand-cut fries and house-made sauces, dining at De Burger is an experience you'll savor long after the last bite. Come join us and discover why De Burger is the ultimate destination for burger enthusiasts!</p>
+        <
+        <a href="#" class="btn">Learn More</a>
+
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+    </div>
+    <div class="links">
+        <a href="#">privercy policy</a>
+        <a href="#">Terms of use</a>
+        <a href="#">our company</a>
+        <p>&#169;carpoolVenom all right reserveds</p>
+    </div>
+</section>
+
+
+<script>
+    const menu = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    });
+</script
+
+        </script>
+    </body>
+</html>
